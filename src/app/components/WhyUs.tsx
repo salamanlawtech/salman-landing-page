@@ -185,7 +185,7 @@ export default function WhyUs() {
                     ))}
                   </div>
                   <p className="text-gray-300 mb-6 italic text-lg leading-relaxed">
-                    "{testimonial.content}"
+                    &ldquo;{testimonial.content}&rdquo;
                   </p>
                   <div className="border-t border-secondary/20 pt-6">
                     <div className="font-bold text-secondary text-lg">{testimonial.name}</div>
