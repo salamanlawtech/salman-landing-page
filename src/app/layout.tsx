@@ -79,7 +79,7 @@ export default function RootLayout({
     "url": "https://salman-law.com",
     "logo": "https://salman-law.com/identity/logo.png",
     "image": "https://salman-law.com/identity/logo.png",
-    "telephone": "+966 12 123 4567",
+    "telephone": "+966 55 593 5722",
     "email": "info@salman-law.com",
     "address": {
       "@type": "PostalAddress",
