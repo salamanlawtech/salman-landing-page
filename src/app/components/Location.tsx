@@ -26,8 +26,8 @@ export default function Location() {
   const branches = [
     {
       city: "مكة المكرمة",
-      address: "شارع إبراهيم الخليل، حي العزيزية",
-      phone: "+966 12 123 4567",
+      address: "3154 محمد بن ابي بكر الصديق، حي العسيلة، 8014، مكة 24423",
+      phone: "+966 55 593 5722",
       manager: "المحامي سلمان الفيفي",
       isMain: true
     },
