@@ -354,9 +354,17 @@ export default function FeeEstimation() {
                   تواصل معنا الآن لمناقشة قضيتك والحصول على تقدير دقيق للأتعاب
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="bg-secondary text-black px-8 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-all duration-300 transform hover:scale-105 cursor-pointer">
-                    اتصل الآن
-                  </button>
+                  <button
+  onClick={() =>
+    window.open(
+      "https://wa.me/966555935722?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9.",
+      "_blank"
+    )
+  }
+  className="bg-secondary text-black px-8 py-3 rounded-lg font-semibold hover:bg-secondary/90 transition-all duration-300 transform hover:scale-105 cursor-pointer"
+>
+  اتصل الآن
+</button>
                   <button className="border-2 border-secondary text-secondary px-8 py-3 rounded-lg font-semibold hover:bg-secondary hover:text-black transition-all duration-300 transform hover:scale-105 cursor-pointer">
                     راسلنا
                   </button>
