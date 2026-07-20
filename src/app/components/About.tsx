@@ -445,7 +445,10 @@ export default function About() {
               
               {/* Enhanced Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-8 justify-center">
-                <button className="group/btn relative overflow-hidden bg-primary text-white font-bold px-12 py-5 rounded-full transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-primary/50 hover:bg-secondary border-2 border-primary hover:border-secondary cursor-pointer">
+                <button
+                 onClick={() => window.open("https://wa.me/966555935722?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9.", "_blank")}
+                    className="group/btn relative overflow-hidden bg-primary text-white font-bold px-12 py-5 rounded-full transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-primary/50 hover:bg-secondary border-2 border-primary hover:border-secondary cursor-pointer"
+                       >
                   {/* Button Background Effects */}
                   <div className="absolute inset-0 bg-gradient-to-r from-primary via-secondary to-primary opacity-0 group-hover/btn:opacity-100 transition-opacity duration-700"></div>
                   <div className="absolute -inset-2 bg-primary/20 rounded-full blur-xl opacity-0 group-hover/btn:opacity-100 transition-opacity duration-500"></div>
